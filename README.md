@@ -62,8 +62,7 @@ Customization
 Embedding Model: The embedding model can be swapped out for any HuggingFace model by changing the model_name parameter.
 LLM Configuration: The Llama model's settings can be adjusted, such as the temperature and the number of tokens generated.
 Database Connection: Modify the PostgreSQL connection parameters to connect to a different database.
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+
 
 Contributing
 Contributions are welcome! Please feel free to submit a pull request or open an issue for any bugs or feature requests.
