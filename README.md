@@ -29,11 +29,17 @@ cd your-repo
 Install the required Python libraries:
 
 pip install llama-index-readers-file pymupdf
+
 pip install llama-index-vector-stores-postgres
+
 pip install llama-index-embeddings-huggingface
+
 pip install llama-index-llms-llama-cpp
+
 pip install llama-cpp-python
+
 pip install psycopg2-binary pgvector asyncpg "sqlalchemy[asyncio]" greenlet
+
 
 Configure PostgreSQL
 
