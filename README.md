@@ -10,6 +10,7 @@ Vector Embeddings: The script uses the HuggingFace model to generate embeddings 
 Vector Storage: Embeddings are stored in a PostgreSQL vector database (PGVectorStore).
 Custom Retriever: A custom retriever (VectorDBRetriever) is implemented to query the database and retrieve relevant text chunks based on a query.
 LLM Integration: The script uses a Llama model to generate more coherent responses by processing the retrieved information.
+
 Setup Instructions
 Prerequisites
 Python 3.x
@@ -19,16 +20,21 @@ llama_index
 psycopg2
 sqlalchemy
 PyMuPDF
+
 Installation
 Clone the Repository
 
 git clone https://github.com/ASoruna/Rag-system.git
 cd your-repo
-Install Dependencies
-
 Install the required Python libraries:
 
-pip install llama_index psycopg2 sqlalchemy PyMuPDF
+pip install llama-index-readers-file pymupdf
+pip install llama-index-vector-stores-postgres
+pip install llama-index-embeddings-huggingface
+pip install llama-index-llms-llama-cpp
+pip install llama-cpp-python
+pip install psycopg2-binary pgvector asyncpg "sqlalchemy[asyncio]" greenlet
+
 Configure PostgreSQL
 
 Ensure PostgreSQL is installed and running locally. You can modify the database credentials in the script as needed:
