@@ -1,6 +1,5 @@
 # Rag-system
 
-README
 Overview
 This Python script demonstrates the creation and use of a text retrieval system leveraging advanced natural language processing (NLP) techniques. It integrates a HuggingFace embedding model, a large language model (LLM) from Llama, and a PostgreSQL vector database to store, process, and query text documents efficiently. The main purpose of this script is to allow for the querying of documents using natural language, retrieving relevant information based on vector similarity.
 
