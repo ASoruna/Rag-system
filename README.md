@@ -23,7 +23,7 @@ Installation
 Clone the Repository
 
 Copy code
-git clone https://github.com/your-repo.git
+git clone https://github.com/ASoruna/Rag-system.git
 cd your-repo
 Install Dependencies
 
