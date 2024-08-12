@@ -23,7 +23,6 @@ PyMuPDF
 Installation
 Clone the Repository
 
-sh
 Copy code
 git clone https://github.com/your-repo.git
 cd your-repo
@@ -31,7 +30,6 @@ Install Dependencies
 
 Install the required Python libraries:
 
-sh
 Copy code
 pip install llama_index psycopg2 sqlalchemy PyMuPDF
 Configure PostgreSQL
@@ -52,7 +50,6 @@ Place your PDF document in the ./data/ directory. For example, SagiriusJrAndrewE
 Running the Script
 Run the script using Python:
 
-sh
 Copy code
 python script_name.py
 Usage
