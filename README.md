@@ -22,21 +22,18 @@ PyMuPDF
 Installation
 Clone the Repository
 
-Copy code
 git clone https://github.com/ASoruna/Rag-system.git
 cd your-repo
 Install Dependencies
 
 Install the required Python libraries:
 
-Copy code
 pip install llama_index psycopg2 sqlalchemy PyMuPDF
 Configure PostgreSQL
 
 Ensure PostgreSQL is installed and running locally. You can modify the database credentials in the script as needed:
 
 python
-Copy code
 db_name = "vector_db"
 host = "localhost"
 password = "password"  # postgresql password
@@ -49,15 +46,14 @@ Place your PDF document in the ./data/ directory. For example, SagiriusJrAndrewE
 Running the Script
 Run the script using Python:
 
-Copy code
 python script_name.py
 Usage
+
 Loading and Splitting Documents: The script loads the provided PDF document, splits it into sentences, and stores them in the database after embedding.
 Querying the Database: You can query the database using natural language queries. The script retrieves relevant text chunks, which are processed by the LLM for a final response.
 Example query:
 
 python
-Copy code
 query_str = "What is Vladimir's role in the late game?"
 response = query_engine.query(query_str)
 The script will print both the generated response and the context from the source document.
