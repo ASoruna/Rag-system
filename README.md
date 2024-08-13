@@ -76,6 +76,10 @@ python
 query_str = "What is Vladimir's role in the late game?"
 response = query_engine.query(query_str)
 The script will print both the generated response and the context from the source document.
+![image](https://github.com/user-attachments/assets/2521aec0-2f22-46a0-95f5-077492227d70)
+![image](https://github.com/user-attachments/assets/f815bc07-ab6e-463e-9bd9-38d35092d1a2)
+
+
 
 Customization
 Embedding Model: The embedding model can be swapped out for any HuggingFace model by changing the model_name parameter.
