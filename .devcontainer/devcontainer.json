@@ -1,0 +1,10 @@
+{
+  "name": "Python 3",
+  "dockerFile": "Dockerfile",
+  "settings": {
+    "python.pythonPath": "/usr/local/bin/python"
+  },
+  "extensions": [
+    "ms-python.python"
+  ]
+}
