@@ -89,10 +89,6 @@ LLM Configuration: The Llama model's settings can be adjusted, such as the tempe
 
 Database Connection: Modify the PostgreSQL connection parameters to connect to a different database.
 
-
-Contributing
-Contributions are welcome! Please feel free to submit a pull request or open an issue for any bugs or feature requests.
-
 Acknowledgements
 This project uses the following open-source projects:
 
@@ -103,3 +99,14 @@ HuggingFace
 psycopg2
 
 PyMuPDF
+
+Sources
+Materials used in development of this project:
+
+https://docs.llamaindex.ai/en/stable/examples/vector_stores/postgres/
+
+https://docs.llamaindex.ai/en/stable/examples/low_level/vector_store/
+
+https://docs.llamaindex.ai/en/stable/examples/low_level/oss_ingestion_retrieval/
+
+https://docs.llamaindex.ai/en/stable/examples/llm/huggingface/
