@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/vscode/devcontainers/python:3.9
+FROM mcr.microsoft.com/vscode/devcontainers/python:3.12.5
 WORKDIR /workspace
 
 COPY requirements.txt .
